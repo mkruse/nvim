@@ -2,6 +2,7 @@ return {
   "williamboman/mason.nvim",
   dependencies = {
     "williamboman/mason-lspconfig.nvim",
+    "seblj/roslyn.nvim",
   },
   config = function()
     -- import mason
