@@ -64,6 +64,9 @@ return {
 
         opts.desc = "Restart LSP"
         keymap.set("n", "<leader>rs", ":LspRestart<CR>", opts) -- mapping to restart lsp if necessary
+
+        opts.desc = "Refresh code lenses"
+        keymap.set("n", "<leader>lr", ":lua vim.lsp.codelens.refresh()<CR>", opts);
       end,
     })
 
